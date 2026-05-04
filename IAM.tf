@@ -22,9 +22,9 @@ resource "aws_iam_policy" "s3_policy" {
       Action   = ["s3:ListBucket", "s3:GetObject", "s3:PutObject"]
       Effect   = "Allow"
       Resource = [
-        aws_s3_bucket.Elsayad-S3-mahalla-2001.arn, 
+        aws_s3_bucket.elsayad_s3_mahalla_2001.arn, 
         
-         "${aws_s3_bucket.Elsayad-S3-mahalla-2001.arn}/*"
+         "${aws_s3_bucket.elsayad_s3_mahalla_2001.arn}/*"
          ]
     }]
   })
