@@ -40,7 +40,7 @@ This project provisions a **secure, scalable, and highly available** web applica
 
 ## 🏗️ Architecture
 
-![Architecture Diagram](screenshots/structure.png)
+![Architecture Diagram](aws-project-01/screenshots/structure.png)
 
 
 
@@ -121,13 +121,13 @@ instance_type          = "t3.micro"
 ```bash
 terraform plan
 ```
-![terraform plan](screenshots/terraform plan.png)
+![terraform plan](aws-project-01/screenshots/terraform plan.png)
 
 ### **5. Apply Infrastructure**
 ```bash
 terraform apply
 ```
-![terraform apply](screenshots/terraform apply.png)
+![terraform apply](aws-project-01/screenshots/terraform apply.png)
 
 Type `yes` when prompted to confirm the deployment.
 
