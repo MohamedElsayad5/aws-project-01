@@ -119,15 +119,18 @@ instance_type          = "t3.micro"
 
 ### **4. Plan Deployment**
 ```bash
-terraform plan
+## 📸 Terraform Plan
+Terraform Plan
 ```
-![terraform plan](screenshots/terraform plan.png)
+![terraform plan](screenshots/terraform-plan.png)
 
 ### **5. Apply Infrastructure**
 ```bash
+## 📸 Terraform Apply
 terraform apply
 ```
-![terraform apply](screenshots/terraform apply.png)
+
+![terraform apply](screenshots/terraform-apply.png)
 
 Type `yes` when prompted to confirm the deployment.
 
